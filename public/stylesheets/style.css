@@ -1,0 +1,212 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+/* NAV ELEMENTS */
+.blackjack-logo {
+   width: 35px;
+   height: 40px;
+   margin-left: 10px;
+}
+.game-mode-button {
+   margin-top: 2px;
+   width: 80px;
+}
+.info-icon {
+   width: 29px;
+   height: 29px;
+   margin-right: 10px;
+}
+
+/* BODY ELEMENTS */
+.scoreboard {
+   margin: 15px auto;
+   cursor: default;
+}
+p {
+   cursor: default;
+   display: inline;
+}
+#scorecard-wins {
+   color: green;
+   font-weight: bold;
+   margin: 0 3px;
+}
+#scorecard-losses {
+   color: red;
+   font-weight: bold;
+   margin: 0 3px;
+}
+#scorecard-percentage {
+   margin: 0 5px;
+}
+#scorecard-reset {
+   color: red;
+   margin-left: 15px;
+   cursor: pointer;
+}
+.card-image {
+   width: 138px;
+   height: 211px;
+   -webkit-animation-duration: .3s;
+   -moz-animation-duration: .3s;
+}
+.dealer-area {
+   padding: 0px 0px 15px 0px;
+}
+#dealer-card1 {
+   display: inline;
+   margin-right: -95px;
+}
+#dealer-card2 {
+   display: inline;
+}
+#player-card1 {
+   margin: 0 2px;
+}
+#player-card2 {
+   margin: 0 2px;
+}
+.user-notification {
+   height: 24px;
+}
+h4 {
+   cursor: default;
+}
+.result-message {
+   -webkit-animation-duration: .8s;
+   -moz-animation-duration: .8s;
+}
+.player-area {
+   padding: 15px 0px 30px 0px;
+}
+/* ACTION PANEL ELEMENTS */
+.action-panel {
+   cursor: default;
+}
+.chart-image {
+   height: 24px;
+   width: 24px;
+}
+.reference-card-image {
+   height: 24px;
+   width: 24px;
+}
+.btn-modal-buttons {
+   display: inline;
+}
+th {
+   padding: 1px 7px;
+}
+.strategy-reference-card-body {
+   padding: 4px;
+}
+.btn-player-action {
+   width: 85px;
+}
+#strategy-reference-card {
+   height: 530px;
+   width: 396px;
+}
+#player-actions {
+   display: inline;
+   padding: 0;
+}
+#new-deal {
+   display: inline;
+}
+#new-hand-button {
+   display: inline;
+   width: 85px;
+}
+
+/*@media (min-width: 768px) {
+   ul.navbar-nav li.dropdown:hover > .dropdown-menu {
+      display: block;
+   }
+}*/
+@media only screen and (max-width: 600px) {
+   nav {
+      padding: 0 auto;
+   }
+   .blackjack-logo {
+      margin-left: 1px;
+   }
+   .game-mode-button {
+      margin-top: 0px;
+   }
+   .info-icon {
+      /*margin-left: 5px;*/
+      margin-right: -4px;
+   }
+   .scoreboard {
+      margin-top: 2px;
+      margin-bottom: 4px;
+   }
+   .card-image {
+      width: 99px;
+      height: 151px;
+      -webkit-animation-duration: .5s;
+      -moz-animation-duration: .5s;
+   }
+   .dealer.area {
+      padding: 15px 0px 10px 0px;
+   }
+   #dealer-card1 {
+      display: inline;
+      margin-right: -75px;
+   }
+   .user-notification {
+      height: 18px;
+   }
+   .result-message {
+      font-size: 18px;
+      -webkit-animation-duration: .5s;
+      -moz-animation-duration: .5s;
+   }
+   .player.area {
+      padding-top: 8px;
+   }
+   .btn-modal-buttons {
+      margin: 2px 0 2px 2px;
+      width: 50px;
+   }
+   #strategy-reference-card {
+      height: 369px;
+      width: 297px;
+   }
+   .btn-player-action {
+      margin: 2px auto;
+   }
+   #new-hand-button {
+      margin: 2px 5px 0 -11px;
+      height: 80px;
+      width: 95px;
+   }
+}
+
+/*Responsiveness breakpoints for future development*/
+
+/* Extra small devices (phones, 600px and down) */
+/*@media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/*@media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {...}*/
